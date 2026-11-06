@@ -8,9 +8,11 @@ Repo này chỉ chứa **bản cài đặt** của Preflight3D. Tải ở mục 
 
 | Hệ điều hành | Link |
 |---|---|
-| macOS Apple Silicon (M1–M4) | [Preflight3D_2.1.0_Apple_Silicon_arm64.dmg](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_2.1.0_Apple_Silicon_arm64.dmg) |
-| Windows 10/11 64-bit | [Bộ cài .exe](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_2.1.0_Windows_x64-setup.exe) · [.msi](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_2.1.0_Windows_x64.msi) |
-| Linux x86_64 | [AppImage](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_2.1.0_Linux_x64.AppImage) · [.deb](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_2.1.0_Linux_amd64.deb) |
+| macOS Apple Silicon (M1–M4) | [Preflight3D_macOS_Apple_Silicon.dmg](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_macOS_Apple_Silicon.dmg) |
+| Windows 10/11 64-bit | [Bộ cài .exe](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_Windows_x64-setup.exe) · [.msi](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_Windows_x64.msi) |
+| Linux x86_64 | [AppImage](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_Linux_x64.AppImage) · [.deb](https://github.com/tuanmd3001/Preflight3D-releases/releases/latest/download/Preflight3D_Linux_amd64.deb) |
+
+Các link trên luôn trỏ tới **bản mới nhất**. Số phiên bản ghi ở tiêu đề mỗi bản phát hành.
 
 ## Lần mở đầu
 
@@ -19,7 +21,7 @@ Repo này chỉ chứa **bản cài đặt** của Preflight3D. Tải ở mục 
   xattr -dr com.apple.quarantine /Applications/Preflight3D.app
   ```
 - **Windows**: nếu SmartScreen chặn → **More info** → **Run anyway**.
-- **Linux (AppImage)**: `chmod +x Preflight3D_*.AppImage` rồi chạy.
+- **Linux (AppImage)**: `chmod +x Preflight3D_Linux_x64.AppImage` rồi chạy.
 
 ## Nên cài thêm
 
